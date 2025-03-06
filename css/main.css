@@ -2389,4 +2389,17 @@
     margin-bottom: 0;
   }
 
+  .custom-caption {
+    position: absolute;
+    bottom: 50px; /* Adjust this value to place the text closer or further from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    padding: 10px; /* Optional: Adjusts the padding around the text */
+  }
+  
+  .custom-caption h2, .custom-caption h4 {
+    color: bisque; /* Ensure the text color is applied */
+  }
 
