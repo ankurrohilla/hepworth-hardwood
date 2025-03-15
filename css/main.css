@@ -2391,7 +2391,7 @@
 
   .custom-caption {
     position: absolute;
-    bottom: 50px; /* Adjust this value to place the text closer or further from the bottom */
+    bottom: 2%; /* Adjust this value to place the text closer or further from the bottom */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
